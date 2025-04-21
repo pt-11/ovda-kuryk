@@ -8,9 +8,13 @@
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
 
 body {
+background: #ffffff; color: #2c3e50; /* #2c3e50 midnightblue */
 font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
+
+a:link, a:visited {color: #2980b9;} /* #2980b9 belizehole */
+a:hover, a:active {color: #c0392b;} /* #c0392b pomegranate */
 
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
