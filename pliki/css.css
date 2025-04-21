@@ -17,4 +17,6 @@ margin: 0 auto; max-width: 40em; padding: 1em;
 a:link, a:visited {color: #2980b9;} /* #2980b9 belizehole */
 a:hover, a:active {color: #c0392b;} /* #c0392b pomegranate */
 
+figure {margin: 0;} figcaption {font-size: small; margin-bottom: 1em; text-align: center;}
+
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
