@@ -1,0 +1,34 @@
+
+@font-face {font-family: gent; src: url(GentiumPlus400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: gent; src: url(GentiumPlus401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
+
+@font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
+b:lang(got) {font-family: ulfi; text-transform: uppercase;}
+
+body {
+background: #ffffff; color: #2c3e50; /* #2c3e50 midnightblue */
+font: 12pt/1.5 gent, sans-serif;
+hyphens: auto;
+margin: 0 auto; max-width: 40em; padding: 1em;
+}
+
+.kol2 {columns: 2;}
+
+.wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
+
+a:link, a:visited {color: #2980b9;} /* #2980b9 belizehole */
+a:hover, a:active {color: #c0392b;} /* #c0392b pomegranate */
+
+audio {display: block;}
+
+figure {margin: 0;} figcaption {font-size: small; margin-bottom: 1em; text-align: center;}
+
+hr {margin: 1em 0;}
+
+table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
+table, th, td {border: thin solid #bdc3c7; padding: 0.2em 0.5em;} /* #bdc3c7 silver */
+th, td {vertical-align: top;}
+
+/*  kolory pochodzą z palety flat ui [https://materialui.co/flatuicolors] */
