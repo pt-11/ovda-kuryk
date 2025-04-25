@@ -5,28 +5,38 @@
 @font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
-b:lang(got) {font-family: ulfi; text-transform: uppercase;}
+b:lang(got) {color: #bb4d00; font-family: ulfi; text-transform: uppercase;}
 
 body {
-background: #ffffff; color: #2c3e50; /* #2c3e50 midnightblue */
+background: #ffffff; color: #314158; /* #314158 slate 700 */
 font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {color: #2980b9;} /* #2980b9 belizehole */
-a:hover, a:active {color: #c0392b;} /* #c0392b pomegranate */
+a:link, a:visited {color: #0069a8;} /* #0069a8 sky 700 */
+a:hover, a:active {color: #c70036;} /* #c70036 rose 700 */
 
 audio {display: block;}
 
 figure {margin: 0;} figcaption {font-size: small; margin-bottom: 1em; text-align: center;}
 
 table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
-table, th, td {border: thin solid #bdc3c7; padding: 0.2em 0.5em;} /* #bdc3c7 silver */
+table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;} /* #d4d4d4 neutral 300 */
 th, td {vertical-align: top;}
 
 .kol2 {columns: 2;}
 
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
-/*  kolory pochodzą z palety flat ui [https://materialui.co/flatuicolors] */
+/* paleta „tailwind colors 4” [https://tailwindcolor.com/], kwiecień 2025
+
+#c70036 #ff2056 rose 700/ 500
+#bb4d00 #fe9a00 amber 700/ 500
+#497d00 #7ccf00 lime 700/ 500
+#0069a8 #00a6f4 sky 700/ 500
+#314158 #62748e slate 700/ 500
+#404040 #737373 neutral 700/ 500
+#d4d4d4 #f5f5f5 neutral 300/ 100
+
+*/
