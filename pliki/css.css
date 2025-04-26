@@ -8,21 +8,21 @@
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
 
 body {
-background: #ffffff; color: #314158; /* #314158 slate 700 */
+background: #ffffff; color: #314158;
 font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {color: #0069a8;} /* #0069a8 sky 700 */
-a:hover, a:active {color: #c70036;} /* #c70036 rose 700 */
+a:link, a:visited {color: #0069a8;}
+a:hover, a:active {color: #c70036;}
 
 audio {display: block;}
 
 figure {margin: 0;} figcaption {font-size: small; margin-bottom: 1em; text-align: center;}
 
 table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
-table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;} /* #d4d4d4 neutral 300 */
+table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;}
 th, td {vertical-align: top;}
 
 .kol2 {columns: 2;}
