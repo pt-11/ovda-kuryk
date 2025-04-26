@@ -5,7 +5,7 @@
 @font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
-b:lang(got) {color: #bb4d00; font-family: ulfi; text-transform: uppercase;}
+b:lang(got) {font-family: ulfi; text-transform: uppercase;}
 
 body {
 background: #ffffff; color: #314158; /* #314158 slate 700 */
