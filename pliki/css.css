@@ -6,6 +6,8 @@
 
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
+b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+00b7 */
+b:lang(got).c2 {text-decoration: overline;}
 
 body {
 background: #ffffff; color: #314158;
@@ -25,7 +27,7 @@ table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100
 table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;}
 th, td {vertical-align: top;}
 
-.kol2 {columns: 2;}
+.kol2 {columns: 2;} .kol3 {columns: 3;}
 
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
