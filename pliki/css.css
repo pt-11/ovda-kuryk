@@ -28,7 +28,7 @@ table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;}
 th, td {vertical-align: top;}
 
 .kol2 {columns: 2;} .kol3 {columns: 3;}
-
+.stopka {font-size: small; text-align: center;}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
 /* paleta „tailwind colors 4” [https://tailwindcolor.com/], kwiecień 2025
