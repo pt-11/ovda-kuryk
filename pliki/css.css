@@ -4,6 +4,11 @@
 @font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
 @font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
+@font-face {font-family: juni; src: url(Junicode400.otf); font-style: normal; font-weight: normal;}
+@font-face {font-family: juni; src: url(Junicode401.otf); font-style: italic; font-weight: normal;}
+@font-face {font-family: juni; src: url(Junicode700.otf); font-style: normal; font-weight: bold;}
+@font-face {font-family: juni; src: url(Junicode701.otf); font-style: italic; font-weight: bold;}
+
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
 b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+00b7 */
@@ -30,6 +35,7 @@ th, td {vertical-align: top;}
 .kol2 {columns: 2;} .kol3 {columns: 3;}
 .stopka {font-size: small; text-align: center;}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
+.olo {font-family: juni;}
 
 /* paleta „tailwind colors 4” [https://tailwindcolor.com/], kwiecień 2025
 #c70036 #ff2056 rose 700/ 500
