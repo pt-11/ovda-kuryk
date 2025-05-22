@@ -4,6 +4,11 @@
 @font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
 @font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
+@font-face {font-family: noto; src: url(NotoSerifCond400.otf); font-style: normal; font-weight: normal;}
+@font-face {font-family: noto; src: url(NotoSerifCond401.otf); font-style: italic; font-weight: normal;}
+@font-face {font-family: noto; src: url(NotoSerifCond800.otf); font-style: normal; font-weight: bold;}
+@font-face {font-family: noto; src: url(NotoSerifCond801.otf); font-style: italic; font-weight: bold;}
+
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
 b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+00b7 */
@@ -11,7 +16,7 @@ b:lang(got).c2 {text-decoration: overline;}
 
 body {
 background: #030712; color: #f3f4f6;
-font: 12pt/1.5 gent, sans-serif;
+font: 12pt/1.5 noto, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
