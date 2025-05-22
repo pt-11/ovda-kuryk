@@ -4,32 +4,27 @@
 @font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
 @font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
-@font-face {font-family: noto; src: url(NotoSerifCond400.otf); font-style: normal; font-weight: normal;}
-@font-face {font-family: noto; src: url(NotoSerifCond401.otf); font-style: italic; font-weight: normal;}
-@font-face {font-family: noto; src: url(NotoSerifCond800.otf); font-style: normal; font-weight: bold;}
-@font-face {font-family: noto; src: url(NotoSerifCond801.otf); font-style: italic; font-weight: bold;}
-
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
 b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+00b7 */
 b:lang(got).c2 {text-decoration: overline;}
 
 body {
-background: #030712; color: #f3f4f6;
-font: 12pt/1.5 noto, sans-serif;
+background: #ffffff; color: #314158;
+font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {color: #51a2ff;}
-a:hover, a:active {color: #ffa1ad;}
+a:link, a:visited {color: #0069a8;}
+a:hover, a:active {color: #c70036;}
 
 audio {display: block;}
 
 figure {margin: 1em 0;} figcaption {font-size: small; margin-bottom: ; text-align: center;}
 
 table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
-table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;}
+table, th, td {border: thin solid #cad5e2; padding: 0.2em 0.5em;}
 th, td {vertical-align: top;}
 
 .kol2 {columns: 2;} .kol3 {columns: 3;}
