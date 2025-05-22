@@ -10,14 +10,14 @@ b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+
 b:lang(got).c2 {text-decoration: overline;}
 
 body {
-background: #ffffff; color: #314158;
+background: #030712; color: #f3f4f6;
 font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {color: #0069a8;}
-a:hover, a:active {color: #c70036;}
+a:link, a:visited {color: #51a2ff;}
+a:hover, a:active {color: #ffa1ad;}
 
 audio {display: block;}
 
