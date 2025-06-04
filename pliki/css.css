@@ -1,8 +1,8 @@
 
 @font-face {font-family: gent; src: url(Gentium400.woff2); font-style: normal; font-weight: normal;}
 @font-face {font-family: gent; src: url(Gentium401.woff2); font-style: italic; font-weight: normal;}
-@font-face {font-family: gent; src: url(Gentium800.woff2); font-style: normal; font-weight: bold;}
-@font-face {font-family: gent; src: url(Gentium801.woff2); font-style: italic; font-weight: bold;}
+@font-face {font-family: gent; src: url(Gentium700.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(Gentium701.woff2); font-style: italic; font-weight: bold;}
 
 @font-face {font-family: ulfi; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
 b:lang(got) {font-family: ulfi; text-transform: uppercase;}
