@@ -23,8 +23,6 @@ audio {display: block;}
 
 figure {margin: 1em 0;} figcaption {font-size: small; text-align: center;}
 
-h1 {font-size: 18pt; text-align: center;}
-
 table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
 table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;} /* neutral 300 */
 th, td {vertical-align: top;}
