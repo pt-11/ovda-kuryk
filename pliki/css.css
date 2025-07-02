@@ -4,11 +4,6 @@
 @font-face {font-family: gent; src: url(Gentium800.woff2); font-style: normal; font-weight: bold;}
 @font-face {font-family: gent; src: url(Gentium801.woff2); font-style: italic; font-weight: bold;}
 
-@font-face {font-family: noto; src: url(NotoSerifCond400.otf); font-style: normal; font-weight: normal;}
-@font-face {font-family: noto; src: url(NotoSerifCond401.otf); font-style: italic; font-weight: normal;}
-@font-face {font-family: noto; src: url(NotoSerifCond800.otf); font-style: normal; font-weight: bold;}
-@font-face {font-family: noto; src: url(NotoSerifCond801.otf); font-style: italic; font-weight: bold;}
-
 @font-face {font-family: bril; src: url(Brill400.ttf); font-style: normal; font-weight: normal;}
 @font-face {font-family: bril; src: url(Brill401.ttf); font-style: italic; font-weight: normal;}
 @font-face {font-family: bril; src: url(Brill700.ttf); font-style: normal; font-weight: bold;}
@@ -21,7 +16,7 @@ b:lang(got).c2 {text-decoration: overline;}
 
 body {
 background: #ffffff; color: #314158; /* white & slate 700 */
-font: 12pt/1.5 bril, sans-serif;
+font: 13.5pt/1.5 bril, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
