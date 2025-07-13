@@ -15,21 +15,21 @@ b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+
 b:lang(got).c2 {text-decoration: overline;}
 
 body {
-background: #ffffff; color: #404040; /* white & neutral 700 */
+background: #ffffff; color: #314158; /* white & slate 700 */
 font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {background: #dbeafe; color: #1447e6; text-decoration: none;} /* blue 100-700 */
-a:hover, a:active {background: #ffe2e2; color: #c10007;} /* red 100-700 */
+a:link, a:visited {background: #dff2fe; color: #0069a8; text-decoration: none;} /* sky 100-700 */
+a:hover, a:active {background: #ffe4e6; color: #c70036;} /* rose 100-700 */
 
 audio {display: block;}
 
 figure {margin: 1em 0;} figcaption {font-size: small; text-align: center;}
 
 table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
-table, th, td {border: thin solid #d4d4d4; padding: 0.2em 0.5em;} /* neutral 300 */
+table, th, td {border: thin solid #cad5e2; padding: 0.2em 0.5em;} /* slate 300 */
 th, td {vertical-align: top;}
 
 .kol2 {columns: 2;} .kol3 {columns: 3;}
