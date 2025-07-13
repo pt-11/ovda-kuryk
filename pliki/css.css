@@ -15,14 +15,14 @@ b:lang(got).c1::before, b:lang(got).c1::after {content: '·';} /* middle dot, u+
 b:lang(got).c2 {text-decoration: overline;}
 
 body {
-background: #ffffff; color: #314158; /* white & slate 700 */
+background: #ffffff; color: #404040; /* white & neutral 700 */
 font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {color: #0069a8;} /* sky 700 */
-a:hover, a:active {color: #c70036;} /* rose 700 */
+a:link, a:visited {background: #dbeafe; color: #1447e6; text-decoration: none;} /* blue 100-700 */
+a:hover, a:active {background: #ffe2e2; color: #c10007;} /* red 100-700 */
 
 audio {display: block;}
 
