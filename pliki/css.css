@@ -21,8 +21,8 @@ hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
 
-a:link, a:visited {background: #dff2fe; color: #0069a8; text-decoration: none;} /* sky 100-700 */
-a:hover, a:active {background: #ffe4e6; color: #c70036;} /* rose 100-700 */
+a:link, a:visited {color: #0069a8;} /* sky 700 */
+a:hover, a:active {color: #c70036;} /* rose 700 */
 
 audio {display: block;}
 
