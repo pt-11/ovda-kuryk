@@ -34,5 +34,6 @@ th, td {vertical-align: top;}
 
 .kol2 {columns: 2;} .kol3 {columns: 3;}
 .stopka {font-size: small; text-align: center;}
+.v1::before {content: 'ᵃᵐ';}
 .v2::before {content: 'ᵉᵐ';}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
