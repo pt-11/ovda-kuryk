@@ -33,5 +33,6 @@ table, th, td {border: thin solid #cad5e2; padding: 0.2em 0.5em;} /* slate 300 *
 th, td {vertical-align: top;}
 
 .kol2 {columns: 2;}
+.kol6 {columns: 6;}
 .stopka {font-size: small; text-align: center;}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
