@@ -15,6 +15,79 @@
 <p><b><a href="../../spis-treści.html">spis treści</a> › słownik maryjsko-polski</b></p>
 <hr>
 
+
+
+
+
+ <label for="linkList">Wybierz stronę:</label>
+  <select id="linkList" onchange="goToPage(this)">
+    <option value="">-- Wybierz --</option>
+    <option value="https://www.google.com">Google</option>
+    <option value="https://www.wikipedia.org">Wikipedia</option>
+    <option value="https://www.github.com">GitHub</option>
+  </select>
+
+
+<script>
+    function goToPage(select) {
+      const url = select.value;
+      if (url) {
+        window.location.href = url;
+      }
+    }
+  </script>
+
+
+<hr>
+
+
+
+ <select id="stronyMenu" onchange="przekieruj()">
+        <option value="">Wybierz pierwszą literę</option>
+        <option value="https://www.google.com">Google</option>
+        <option value="https://www.wikipedia.org">Wikipedia</option>
+        <option value="https://www.onet.pl">Onet</option>
+        <option value="https://www.wp.pl">WP</option>
+    </select>
+
+    <script>
+        function przekieruj() {
+            var selectElement = document.getElementById("stronyMenu");
+            var selectedValue = selectElement.value;
+
+            // Sprawdzamy, czy wybrano faktyczny link (nie opcję "Wybierz pierwszą literę")
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<select>
+<option>ч</option>
+<option><a href="ш.html">ш</a></option>
+<option>щ</option>
+
+</select>
+
+
+
 <div class="kol6 wys" style="text-align: center;">
 <p><a>а</a></p>
 <p><a>б</a></p>
