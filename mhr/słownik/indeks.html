@@ -14,7 +14,7 @@
 <p><b><a href="../../spis-treści.html">spis treści</a> › słownik maryjsko-polski</b></p>
 <hr>
 
-<select id="litery">
+<select id="litery" onchange="window.location.href=this.value;">
 <option value="">Wybierz pierwszą literę hasła</option>
 <option value="а.html">а</option><option value="б.html">б</option><option value="в.html">в</option>
 <option value="г.html">г</option><option value="д.html">д</option><option value="е.html">е</option>
@@ -29,13 +29,16 @@
 <option value="ъ.html">ъ</option><option value="ы.html">ы</option><option value="ь.html">ь</option>
 <option value="э.html">э</option><option value="ю.html">ю</option><option value="я.html">я</option>
 </select>
-<script>document.getElementById('litery').addEventListener('change', function() {const selectedValue = this.value; if (selectedValue) {window.location.href = selectedValue;}});</script>
 
 <hr>
 
 <p><b>źródła</b></p>
 <div class="wys">
-<p>Dostępny w Internecie: <a href="https://dict.mari-language.com">dict.mari-language.com</a></p>
+<p><cite>Mari-English dictionary</cite>. Dostępny w Internecie: <a href="https://mari-language.univie.ac.at/dict.php">mari-language.univie.ac.at/dict.php</a></p>
+<p>Moisio A., Saarinen S., <cite>Tscheremissisches Wörterbuch</cite>, 2008. Wersja PDF dostępna na stronie <a href="https://doi.org/10.33341/sus.877">doi.org/10.33341/sus.877</a>.</p>
+<p><cite>Марийско-русский фразеологический словарь</cite>, т. 1–2, ред. Л.И. Барцева, Н.М. Краснова, Г.А. Эрцикова, Э.С. Якимова, 2020. Wersja internetowa dostępna na stronie <a href="https://dict.fu-lab.ru/dict?id=1150146">https://dict.fu-lab.ru/dict?id=1150146</a>.</p>
+<p><cite>Русско-марийский словарь</cite>, т. I–II, ред. Л.А. Абукаева, В.Г. Гаврилова, М.Т. Ипакова, 2019. Wersja internetowa dostępna na <a href="https://dict.fu-lab.ru/dict?id=957361">dict.fu-lab.ru/dict?id=957361</a>.</p>
+<p><cite>Словарь марийского языка</cite>, т. I–X, ред. И.С. Галкин, 1990–2005. Wersja internetowa dostępna na stronie <a href="https://dict.fu-lab.ru/dict?id=37767">dict.fu-lab.ru/dict?id=37767</a>.</p>
 </div>
 
 <p><b>skróty i innych symbole</b></p>
